@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'AgencyFB BlackWide';
+  src: url('../fonts/AgencyFB-BlackWide.woff2') format('woff2'),
+      url('../fonts/AgencyFB-BlackWide.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
+      url('../fonts/AgencyFB-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('../fonts/AgencyFB-Regular.woff2') format('woff2'),
+      url('../fonts/AgencyFB-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
