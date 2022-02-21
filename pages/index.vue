@@ -3,14 +3,13 @@
     <Hero/>
     <Message/>
     <Hours/>
-    <div class="container">
-      <div class="mb-24">
-        <flickity ref="flickity" :options="flickityOptions" class="carousel">
-          <div v-for="photo in photos[0].imageCollection.items" :key="photo.title">
-            <div class='carousel-cell'><img :src="photo.url"></div>
-          </div>
-        </flickity>
-      </div>
+    <div class="container py-24">
+      <div class="uppercase text-center font-agblack text-xl mb-12">Photos</div>
+      <flickity ref="flickity" :options="flickityOptions" class="carousel">
+        <div v-for="photo in photos[0].imageCollection.items" :key="photo.title" class='carousel-cell'>
+          <img class="carousel-image" :data-flickity-lazyload="photo.url">
+        </div>
+      </flickity>
     </div>
     <FAQ/>
   </div>
@@ -23,7 +22,8 @@ export default {
   data () {
     return {
       flickityOptions: {
-        lazyLoad: 1,
+        lazyLoad: 2,
+        fullscreen: true,
         wrapAround: true
       }
     }
@@ -44,7 +44,7 @@ export default {
             imageCollection{
               items {
                 title
-                url
+                url(transform: {width: 1000, height: 700})
               }
             }
           }
@@ -57,3 +57,25 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.carousel-cell{
+  margin-right:10px;
+}
+
+.carousel-image {
+  display: block;
+  height: 400px;
+  /* set min-width, allow images to set cell width */
+  min-width: 200px;
+  max-width: 100%;
+  margin-right: 10px;
+  /* vertically center */
+  top: 0;
+}
+
+.carousel.is-fullscreen .carousel-image {
+  height: auto;
+  max-height: 100%;
+}
+</style>
