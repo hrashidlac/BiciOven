@@ -4,14 +4,13 @@
     <Message/>
     <Hours/>
     <div class="container py-24">
-      <div class="uppercase text-center font-agblack text-xl mb-12">Photos</div>
+      <div class="uppercase text-center font-agblack text-xl sm:text-3xl mb-12">Photos</div>
       <flickity ref="flickity" :options="flickityOptions" class="carousel">
         <div v-for="photo in photos[0].imageCollection.items" :key="photo.title" class='carousel-cell'>
           <img class="carousel-image" :data-flickity-lazyload="photo.url">
         </div>
       </flickity>
     </div>
-    <FAQ/>
   </div>
 </template>
 

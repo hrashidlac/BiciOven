@@ -16,17 +16,17 @@ module.exports = {
       orange: '#fd5214',
     },
     fontSize: {
-      xxs: '1.2rem',
-      xs: '1.3rem',
-      sm: '1.5rem',
-      base: '1.6rem',
-      lg: '1.8rem',
-      xl: '2.2rem',
-      '2xl': '2.7rem',
-      '3xl': '3.6rem',
-      '4xl': '4rem',
-      '5xl': '5rem',
-      '6xl': '6rem'
+      xxs: '10px',
+      xs: '11px',
+      sm: '12px',
+      base: '14px',
+      lg: '18px',
+      xl: '22px',
+      '2xl': '28px',
+      '3xl': '32px',
+      '4xl': '40px',
+      '5xl': '48px',
+      '6xl': '58px'
     },
     screens: {
       xs: '480px',
