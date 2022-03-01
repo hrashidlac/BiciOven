@@ -1,10 +1,10 @@
 <template>
-  <div class="hours py-24 border-orange border-b-8">
+  <div class="hours py-24 border-orange border-t-8 border-b-8">
     <div class="container">
       <div class="sm:grid sm:grid-cols-2 sm:gap-24">
         <div class="sm:grid-cols-1 text-black mb-24 sm:mb-0">
-          <div class="uppercase text-center font-agblack text-xl sm:text-3xl mb-12">Hours of Operation</div>
-          <div class="bg-white bg-opacity-80 text-black p-12 uppercase font-agbold font-bold">
+          <div class="uppercase font-agblack text-xl sm:text-3xl mb-12">Hours of Operation</div>
+          <div class="bg-white bg-opacity-80 text-black py-6 uppercase font-agbold font-bold">
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Saturday : 10 - 6</div>
             <div class="mb-4 sm:mb-2 text-lg  sm:text-2xl">sunday : 10 -6 </div>
             <div class="mb-8 sm:mb-12 text-lg sm:text-2xl">monday : 10 - 5</div>
@@ -17,14 +17,14 @@
         </div>
         </div>
         <div class="sm:grid-cols-1 text-black mb-8 sm:mb-0">
-          <div class="uppercase text-center font-agblack text-xl sm:text-3xl mb-12">Costs & Policy</div>
-          <div class="bg-white bg-opacity-80 text-black p-12 font-agreg uppercase font-agbold font-bold">
+          <div class="uppercase font-agblack text-xl sm:text-3xl mb-12">Costs & Policy</div>
+          <div class="bg-white bg-opacity-80 text-black py-6 font-agreg uppercase font-agbold font-bold">
             
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">stand time : $10 / hour</div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">no one turned away </div>
             <div class="mb-4 sm:mb-12 text-lg sm:text-2xl">for lack of funds</div>
             
-            <p class="mb-2 text-lg  sm:text-xl">
+            <p class="mb-2 text-lg sm:text-xl">
               the oven is a workshop focused on
               teaching bike mechanics.  stand time
               includes use of all tools and advice
