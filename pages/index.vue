@@ -62,19 +62,23 @@ export default {
   margin-right:10px;
 }
 
-.carousel-image {
-  display: block;
-  height: 400px;
-  /* set min-width, allow images to set cell width */
-  min-width: 200px;
-  max-width: 100%;
-  margin-right: 10px;
-  /* vertically center */
-  top: 0;
-}
+
 
 .carousel.is-fullscreen .carousel-image {
   height: auto;
   max-height: 100%;
+}
+
+@media (min-width: 767px){
+  .carousel-image {
+    display: block;
+    height: 400px;
+    /* set min-width, allow images to set cell width */
+    min-width: 200px;
+    max-width: 100%;
+    margin-right: 10px;
+    /* vertically center */
+    top: 0;
+  }
 }
 </style>
