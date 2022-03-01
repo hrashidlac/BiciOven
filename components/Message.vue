@@ -1,7 +1,10 @@
 <template>
   <div class="font-agbold font-bold py-12 border-orange border-b-8">
     <div class="container text-center">
-      <div class="uppercase text-xl sm:text-2xl mb-12 md:px-48">The bike oven is a community run workshop serving northeast los angeles.</div>
+      <div class="uppercase text-xl sm:text-xl mb-12 md:px-48">The bike oven is a community run workshop serving northeast los angeles, located at:</div>
+
+      <div class="uppercase text-2xl sm:text-3xl mb-12 md:px-48">3706 N Figueroa St, Los Angeles, CA 90065</div>
+      
       <div class="uppercase mb-8 text-xl">Please consider supporting our: <a href="https://www.gofundme.com/f/bikeoven?member=15091763&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer" target="_blank" class="sm:ml-4 block sm:inline bg-orange text-white px-6 pt-3 pb-2 hover:bg-red">GoFundMe</a></div>
       
       <!-- <div class="uppercase mb-8 text-lg">To get involved please fill out our: <a href="#" target="_blank" class="sm:ml-4 block sm:inline bg-orange text-white p-2">volunteer form</a></div> -->
