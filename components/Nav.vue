@@ -20,12 +20,16 @@
           </nuxt-link>
         </div>
         <div class="">
-          <a href="https://www.gofundme.com/f/bikeoven" target="_blank" class="bg-orange px-3 py-1 uppercase no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-4">
+          <a href="https://www.gofundme.com/f/bikeoven" target="_blank" class="bg-orange px-3 py-1 border-2 border-orange uppercase no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-4 hover:bg-black hover:border-white hover:border-2">
             GoFundMe
           </a>
-          <a href="https://form.jotform.com/220280080907045"  target="_blank" class="bg-red px-3 py-1  uppercase no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-4">
+          <a href="https://form.jotform.com/220280080907045"  target="_blank" class="bg-red px-3 py-1 border-2 border-red uppercase no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-4 hover:bg-black hover:border-white hover:border-2">
             DONATE A BIKE
           </a>
+          <a href="https://form.jotform.com/220608819689066"  target="_blank" class="bg-fuschia px-3 py-1 border-2 border-fuschia uppercase no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-4 hover:bg-black hover:border-white hover:border-2">
+            VOLUNTEER
+          </a> 
+
         </div>
       </div>
     </nav>

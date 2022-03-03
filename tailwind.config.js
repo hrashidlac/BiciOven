@@ -14,6 +14,7 @@ module.exports = {
       black: '#000',
       red: '#F00',
       orange: '#fd5214',
+      fuschia: '#ec00a1'
     },
     fontSize: {
       xxs: '10px',
