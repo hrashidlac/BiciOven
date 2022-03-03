@@ -9,7 +9,7 @@
       
       <div class="uppercase mb-8 text-xl">Want to donate a bike? Please complete our: <a href="https://form.jotform.com/220280080907045" target="_blank" class="sm:ml-4 block sm:inline bg-orange hover:bg-black hover:border-white text-white px-6 pt-3 pb-2 pt-3">bike donation form</a></div>
 
-      <div class="uppercase mb-8 text-xl">Interested in Volunteering? Please complete our: <a href="https://form.jotform.com/220280080907045" target="_blank" class="sm:ml-4 block sm:inline bg-fuschia hover:bg-black hover:border-white text-white px-6 pt-3 pb-2 pt-3">Volunteer form</a></div>
+      <div class="uppercase mb-8 text-xl">Interested in Volunteering? Please complete our: <a href="https://form.jotform.com/220608819689066" target="_blank" class="sm:ml-4 block sm:inline bg-fuschia hover:bg-black hover:border-white text-white px-6 pt-3 pb-2 pt-3">Volunteer form</a></div>
     </div>
   </div>
 </template>
