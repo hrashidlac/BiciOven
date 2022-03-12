@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'bicioven',
+    title: 'The Bike Oven - Now Open and Serving Northeast Los Angeles',
     htmlAttrs: {
       lang: 'en'
     },
@@ -46,9 +46,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/markdownit',
     'nuxt-graphql-request'
   ],
-
+  markdownit: {
+    runtime: true // Support `$md()`
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 

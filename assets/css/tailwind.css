@@ -38,3 +38,10 @@
   font-display: swap;
 }
 
+p a{
+  text-decoration: underline;
+  color:#F00;
+}
+p a:hover{
+  color:orange;
+}

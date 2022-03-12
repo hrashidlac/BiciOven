@@ -17,7 +17,7 @@
       </div>
       <div v-for="faq in faqs.faqCollection.items" :key="faq.title" class="mb-12">
         <div><h2 class="text-2xl mb-4">{{faq.question2}}</h2></div>
-        <div class="pl-4">{{faq.answer2}}</div>
+        <div class="pl-4 answer" v-html="$md.render(faq.answer2)"></div>
       </div>
     </div>
   </div>
@@ -62,6 +62,10 @@ export default {
 }
 p{
   @apply mb-4;
+}
+
+.answer a{
+  @apply text-orange underline;
 }
 
 </style>

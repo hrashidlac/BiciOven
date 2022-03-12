@@ -62,8 +62,6 @@ export default {
   margin-right:10px;
 }
 
-
-
 .carousel.is-fullscreen .carousel-image {
   height: auto;
   max-height: 100%;
