@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'The Bike Oven - Now Open and Serving Northeast Los Angeles',
+    title: 'The Bike Oven - Now Open and Serving Northeast Los Angeles.',
     htmlAttrs: {
       lang: 'en'
     },
