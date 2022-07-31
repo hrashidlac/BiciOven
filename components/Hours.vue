@@ -5,9 +5,11 @@
         <div class="sm:grid-cols-1 text-black mb-24 sm:mb-0">
           <div class="uppercase font-agblack text-xl sm:text-3xl mb-12">Hours of Operation</div>
           <div class="bg-white bg-opacity-80 text-black py-6 uppercase font-agbold font-bold">
+            <div class="mb-4 sm:mb-2 text-lg  sm:text-2xl">Monday : 5pm - 9pm </div>
+            <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Tuesday : 5pm - 9pm</div>
+            <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Wednesday : 5pm - 9pm</div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Saturday : 12pm - 5pm</div>
-            <div class="mb-4 sm:mb-2 text-lg  sm:text-2xl">sunday : 12pm - 5pm </div>
-            <!-- <div class="mb-8 sm:mb-12 text-lg sm:text-2xl">monday : 10 - 5</div> -->
+            <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Sunday : 12pm - 5pm</div>
             <p class="mb-2 text-lg  sm:text-xl">
               the oven is looking for volunteers
               for other nights of the week.

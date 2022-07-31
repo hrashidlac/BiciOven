@@ -11,6 +11,8 @@
       </flickity>
     </div>
     <Hours/>
+
+    <Footer/>
   </div>
 </template>
 

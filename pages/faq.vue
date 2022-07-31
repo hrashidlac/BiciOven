@@ -20,6 +20,7 @@
         <div class="pl-4 answer" v-html="$md.render(faq.answer2)"></div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
