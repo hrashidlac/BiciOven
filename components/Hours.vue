@@ -8,6 +8,7 @@
             <div class="mb-4 sm:mb-2 text-lg  sm:text-2xl">Monday : 5pm - 9pm </div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Tuesday : 5pm - 9pm</div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Wednesday : 5pm - 9pm</div>
+            <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Thursday : 5pm - 9pm</div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Saturday : 12pm - 5pm</div>
             <div class="mb-4 sm:mb-2 text-lg sm:text-2xl">Sunday : 12pm - 5pm</div>
             <p class="mb-2 text-lg  sm:text-xl">
