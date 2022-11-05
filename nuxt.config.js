@@ -3,7 +3,7 @@ export default {
   ssr: false,
   target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  // Global page headers: https://ssgo.nuxtjs.dev/config-head
   head: {
     title: 'The Bike Oven - Now Open and Serving Northeast Los Angeles.',
     htmlAttrs: {
