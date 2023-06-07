@@ -10,6 +10,9 @@
         </button>
       </div>
       <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:justify-end sm:items-center sm:w-auto">
+        <nuxt-link :to="'/photos'" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-8">
+          PHOTOS
+        </nuxt-link>
         <nuxt-link :to="'/faq'" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray mr-8">
           FAQ
         </nuxt-link>

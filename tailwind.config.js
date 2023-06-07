@@ -1,6 +1,6 @@
 module.exports = {
-  purge: ['./public/**/*.html', './src/**/*.vue'],
-  darkMode: false, // or 'media' or 'class'
+  // purge: ['./public/**/*.html', './src/**/*.vue'],
+  // darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -29,13 +29,13 @@ module.exports = {
       '5xl': '48px',
       '6xl': '58px'
     },
-    screens: {
-      xs: '480px',
-      sm: '768px',
-      md: '992px',
-      lg: '1280px',
-      xl: '1500px'
-    },
+    // screens: {
+    //   xs: '480px',
+    //   sm: '768px',
+    //   md: '992px',
+    //   lg: '1280px',
+    //   xl: '1500px'
+    // },
     container: {
       center: true,
       padding: {
@@ -44,6 +44,12 @@ module.exports = {
         lg: '4rem',
         xl: '5rem',
         '2xl': '6rem',
+      },
+      screens: {
+        sm: '600px',
+        md: '767px',
+        lg: '992px',
+        xl: '1200px',
       },
     },
   },

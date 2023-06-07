@@ -54,6 +54,7 @@ export default {
     `
     const post = await $graphql.default.request(query)
     const photos = post.photoCollection.items
+    //console.log(photos)
     return { photos }
   }
 }
