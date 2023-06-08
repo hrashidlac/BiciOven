@@ -22,6 +22,21 @@
   }
 }
 @layer base {
+  h1 {
+    @apply text-5xl md:text-4xl lg:text-6xl font-agblack text-center mb-8;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-agbold uppercase my-6;
+  }
+
+  h3 {
+    @apply text-lg md:text-xl lg:text-2xl font-agbold uppercase my-4;
+  }
+
+  h4 {
+    @apply text-base md:text-lg font-agbold my-2;
+  }
   p a{
     text-decoration: underline;
     color:#F00;
