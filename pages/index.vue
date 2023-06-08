@@ -1,7 +1,12 @@
 <template>
   <div>
+    
     <Hero/>
-    <Message/>
+    <!-- <Message/> -->
+    <div class="font-agbold font-bold text-2xl py-12 border-orange border-b-8">
+      <div class="container text-center " v-html="$md.render(welcomemsg[0].body2)"></div>
+    </div>
+    
     <div class="container py-24">
       <div class="uppercase text-center font-agblack text-xl sm:text-3xl mb-12">Photos</div>
       <flickity ref="flickity" :options="flickityOptions" class="carousel">
@@ -11,7 +16,6 @@
       </flickity>
     </div>
     <Hours/>
-
     <Footer/>
   </div>
 </template>
@@ -52,15 +56,32 @@ export default {
         }
       }
     `
+    const welcome = gql`
+      query  {
+        pageCollection (where:  { slug: "home-welcome-message" }) {
+          items {
+            title
+            slug
+            body2
+          }
+        }
+      }
+    `
     const post = await $graphql.default.request(query)
     const photos = post.photoCollection.items
+
+    const welcomepage = await $graphql.default.request(welcome)
+    const welcomemsg = welcomepage.pageCollection.items
     //console.log(photos)
-    return { photos }
+    return { photos, welcomemsg }
   }
 }
 </script>
 
 <style scoped>
+.welcome a{
+  background:red;
+}
 .carousel-cell{
   margin-right:10px;
 }

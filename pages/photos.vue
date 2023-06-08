@@ -31,7 +31,7 @@ export default {
             imageCollection{
               items {
                 title
-                url(transform: {width: 850, height: 450})
+                url(transform: {width: 1250, height: 850})
               }
             }
           }
