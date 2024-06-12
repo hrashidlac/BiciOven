@@ -17,7 +17,8 @@
     "nuxt": "^2.15.7",
     "nuxt-graphql-request": "^4.2.2",
     "vue-faq-accordion": "^1.6.2",
-    "vue-flickity": "^1.2.1"
+    "vue-flickity": "^1.2.1",
+    "postscribe": "^2.0.8"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
