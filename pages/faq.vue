@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="hero text-white uppercase flex flex-col justify-center items-center h-24 lg:h-48 bg-center bg-cover px-4">
-       <h1 class="text-6xl font-agblack">FAQ</h1>
+       <h1 class="text-6xl font-agblack">FAQ's</h1>
     </div>
     
    
